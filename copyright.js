@@ -1,46 +1,55 @@
-var c  = '';
+var Company  = '';
 // Please stat your company, or your name.
 
-var s = '';
+var Start = '';
 // Please state the year your website started.
+// If nothing is in here, nothing will show for start.
 
-var showS = true;
-// You want the start to show?
-
-var r = 'All';
+var Rights = '';
 // Want all rights reserved, or no rights.
 	// Legend, CaSe SeNsAtIvE!
-		// All =  All Rights Reserved.
-		// No =  No Rights Reserved.
-		// Some = Some Rights Reserved.
+		// All =  All Rights Reserved.  (Means that anything on the website that's stolen from you can be prosecuted.)
+		// No =  No Rights Reserved.    (Means that anything on the is avalible for public use, including images and text.)
+		// Some = Some Rights Reserved. (Means that somethings can be used for public use, you must specify these/)
+
+var Comments = '';
+// Write anything you want to add, like Licenses, etc.
+// Leaving it blank will show nothing.
 
 
-// Everything under this is so that the script works correctly, change at your will. 
-// Some things may not work once you change them.
+
+// Commands
 var dash = '-';
 
-var coma = ', ';
+var period = '. ';
 
-if (showS==false){
-	s = '';
+var space = ' ';
+
+if (Start==''){
+	Start = '';
 	dash = '';
 }
 
-if (r=='All'){
-	r = 'All Rights Reserved.';
+if (Company==''){
+	space = '';
 }
-else if (r=='No'){
-	r = 'No Rights Reserved.';
+
+if (Rights=='All'){
+	Rights = 'All Rights Reserved.';
 }
-else if (r=='Some'){
-	r = 'Some Rights Reserved.';
+else if (Rights=='No'){
+	Rights = 'No Rights Reserved.';
+}
+else if (Rights=='Some'){
+	Rights = 'Some Rights Reserved.';
 }
 else {
-	r = '';
-	coma = '';
+	Rights = '';
+	period = '';
 }
 
 var d = new Date();
-var n = d.getFullYear();
+var Date = d.getFullYear();
 
-document.write("&copy",s,dash,n," ",c,coma,r);
+document.write("&copy ",Start,dash,Date,space,Company,period,Rights,space,Comments);
+console.log('Copyright Loaded.')
