@@ -1,7 +1,7 @@
-var c  = 'Test';
+var c  = '';
 // Please stat your company, or your name.
 
-var s = '2012';
+var s = '';
 // Please state the year your website started.
 
 var showS = true;
