@@ -16,9 +16,9 @@ Make sure they're in the same folder, or it will not load. If you need to use in
 
 ## Screen shots
 
-![Sublime Example HTML File](https://i.gyazo.com/61c9e4fe2ae165d6fe96f774d8b4ccd7.png)
+![Atom Example HTML File](https://i.gyazo.com/f32e1956a0efde7961bde418ed0d5124.png)
 
-![Sublime Copyright JS File](https://i.gyazo.com/723088a07a7f2f8c9076d2499fbdf716.png)
+![Atom Copyright JS File](https://i.gyazo.com/1ac61ab5b80af225f6f2f06e8583813c.png)
 
 ## Legal
 
