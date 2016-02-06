@@ -18,7 +18,7 @@ Make sure they're in the same folder, or it will not load. If you need to use in
 
 ![Atom Example HTML File](https://i.gyazo.com/f32e1956a0efde7961bde418ed0d5124.png)
 
-![Atom Copyright JS File](https://i.gyazo.com/1ac61ab5b80af225f6f2f06e8583813c.png)
+![Atom Copyright JS File](https://i.gyazo.com/4909226c766d3fc285811b89e67ef1bb.png)
 
 ## Legal
 
