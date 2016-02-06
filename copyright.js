@@ -16,6 +16,14 @@ var Comments = '';
 // Write anything you want to add, like Licenses, etc.
 // Leaving it blank will show nothing.
 
+var ShowSpace = false;
+// Show space between The copyright symbol and year?
+// true will have a space, false will not.
+
+var ShowLog = true;
+// Want to show that the script worked correctly in the console?
+// true will show a log entry, false will not.
+// Great for error logging.
 
 
 // Commands
@@ -24,6 +32,21 @@ var dash = '-';
 var period = '. ';
 
 var space = ' ';
+
+var CopySymbol = '&copy ';
+
+var Log = 'Copyright Loaded.';
+
+if (ShowLog==true){
+	console.log(Log)
+}
+else {
+
+}
+
+if (ShowSpace==false){
+	CopySymbol = '&copy';
+}
 
 if (Start==''){
 	Start = '';
@@ -51,5 +74,4 @@ else {
 var d = new Date();
 var Date = d.getFullYear();
 
-document.write("&copy ",Start,dash,Date,space,Company,period,Rights,space,Comments);
-console.log('Copyright Loaded.')
+document.write(CopySymbol,Start,dash,Date,space,Company,period,Rights,space,Comments);
