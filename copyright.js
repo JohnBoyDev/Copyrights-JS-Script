@@ -25,6 +25,9 @@ var ShowLog = true;
 // true will show a log entry, false will not.
 // Great for error logging.
 
+var ShowCredits = false;
+// Want to give me credit?
+// true will show my name under it, false will not.
 
 // Commands
 var dash = '-';
@@ -36,6 +39,15 @@ var space = ' ';
 var CopySymbol = '&copy ';
 
 var Log = 'Copyright Loaded.';
+
+var Credits = '<br> Created by John Channell.'
+
+if (ShowCredits==false) {
+	Credits = '';
+}
+else {
+
+}
 
 if (ShowLog==true){
 	console.log(Log)
@@ -74,4 +86,4 @@ else {
 var d = new Date();
 var Date = d.getFullYear();
 
-document.write(CopySymbol,Start,dash,Date,space,Company,period,Rights,space,Comments);
+document.write(CopySymbol,Start,dash,Date,space,Company,period,Rights,space,Comments,Credits);
