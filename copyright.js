@@ -1,5 +1,5 @@
 var Company  = '';
-// Please stat your company, or your name.
+// Please state your company, or your name.
 
 var Start = '';
 // Please state the year your website started.
