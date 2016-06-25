@@ -1,0 +1,19 @@
+Windows XP+
+- Right Click: File,"Properties"
+- Left Click: "Opens with: ", "Change..." Button
+- Left Click: "Any Text Editor","OK"
+- Left Click: "Apply"
+
+MAC OS
+- Option (Hold) + Right Click/: File,"Always Open With"
+- Left Click: "Any Text Editor"
+
+Linux Ubuntu
+- Right Click: File,"Properties"
+- Left Click: "Open With" Tab
+- Left Click: ""Any Text Editor","Set as default"
+- Left Click: "Close"
+
+Linux Nemo / Nautilus
+- Right Click: File,"Open With"
+- Left Click: "Any Text Editor"
